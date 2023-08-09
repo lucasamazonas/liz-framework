@@ -2,7 +2,7 @@
 
 use Routing\Infra\RouteScraper;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');

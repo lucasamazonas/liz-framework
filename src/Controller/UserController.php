@@ -18,4 +18,10 @@ class UserController
     {
         return "ola mundo";
     }
+
+    #[Route(uri: '/users/{id}', method: Method::POST)]
+    public function show1(): string
+    {
+        return "ola mundo";
+    }
 }
